@@ -23,11 +23,14 @@ import {
   Line,
 } from "./pages";
 
+import { useStateContext } from "./contexts/ContextProvider";
+
 import "./App.css";
 import { fromJSON } from "postcss";
 
 const App = () => {
-  const activeMenu = true;
+  const {activeMenu} = useStateContext()
+  // const activeMenu = true;
   return (
     <div>
       <BrowserRouter>
