@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  ScheduleComponent,
+  ScheduleComponent,  
   Day,
   Week,
   WorkWeek,
